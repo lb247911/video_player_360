@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
           title: const Text('360 Video Player Flutter'),
         ),
         body: Center(
-          child: RaisedButton(
+          child: ElevatedButton(
             onPressed: () async {
               await VideoPlayer360.playVideoURL(
                   "https://github.com/stephangopaul/video_samples/blob/master/gb.mp4?raw=true");

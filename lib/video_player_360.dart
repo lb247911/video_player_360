@@ -21,7 +21,7 @@ class VideoPlayer360 {
   /// @param columns Number of columns that make up the sphere. Must be >= 1.
   ///
 
-  static Future<void> playVideoURL(
+  static Future<Future<Map?>> playVideoURL(
     String url, {
     int radius = 50,
     int verticalFov = 180,
